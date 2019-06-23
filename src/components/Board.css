@@ -1,0 +1,10 @@
+.board{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around; /*espacio entre contenido de carta*/
+    width: 700px;
+    height: 600px;
+    margin: 0 auto;  /*verse centrado*/
+    background:#4A4063;
+    margin-top: 2%; /*espaciado entre header*/
+}

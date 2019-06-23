@@ -2,15 +2,21 @@
 
 import React, {Component} from 'react';
 import Header from './Header';
-
+import Board from './Board';
+import imgs from './utils/CardDeckImg';
+import buildCardDeck from './utils/buildCardDeck';
 
 class Playground extends Component {
+
     render() {
         return(
        <div>
-           <article>
+           <section>    
                <Header />
-           </article>
+           </section>
+           <section>
+               <Board imgs={imgs}/>
+           </section>    
        </div>
         )      
     }

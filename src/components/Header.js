@@ -1,5 +1,6 @@
 //Aquí quiero mostrar el nombre del jugador, puntaje, intentos etc.
-//método obligatorio que define cual va a ser el resultado en pantalla
+// render método obligatorio que define cual va a ser el resultado en pantalla
+// React se importa para cuando se usa JSX
     
 import React, {Component} from 'react';
 import './Header.css';
